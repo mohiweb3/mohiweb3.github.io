@@ -19,18 +19,19 @@
 }
 
 .hvicon {
-    line-height: 100px;
     height: 100px;
+    line-height: 100px;
+    align-items: center;
     font-size: 5px;
     color: black;
     vertical-align: middle;
 }
 
 .hv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     transition: all 0.8s;
-    line-height: 100px;
-    width: 140PX;
-    height: 100px;
     text-align: center;
     color: black;
     vertical-align: middle;
@@ -44,8 +45,6 @@
     max-width: 25px;
     -o-object-fit: cover;
     object-fit: cover;
-    margin-top: 40px;
-    display: block;
 }
 
 .right__item {
@@ -781,9 +780,6 @@
 }
 
 .logo__img {
-    height: 25px;
-    line-height: 25px;
     -o-object-fit: cover;
     object-fit: cover;
-    margin-top: 15px;
 }
