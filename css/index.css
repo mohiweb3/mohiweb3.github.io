@@ -287,12 +287,12 @@
 }
 
 .ghf-nav {
-    background-image: url(../images/bg-3.jpg);
+    background-image: url(../images/slider1.jpeg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
+   
+    height: 70vh;
 }
 
 .ghf-pos {
@@ -359,7 +359,9 @@
 .gray-bg {
     background: #fff5ec;
 }
-
+.gray-bg-web3 {
+    background: black;
+}
 .skill-bar {
     position: relative;
     background: #0f0a0a;
@@ -399,7 +401,7 @@
     margin-top: 43px;
 }
 
-.section {
+.section-web3 {
     padding: 20px 0;
     position: relative;
 }
@@ -491,6 +493,44 @@
     font-weight: 600;
     color: #0f0a0a;
     margin: 0;
+}
+
+.portfolio-box-01-h5-web3{
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.portfolio-box-01-web3 {
+    background: black;
+   margin: 0;
+  
+  
+    position: relative;
+}
+
+.portfolio-box-01-web3:hover,
+.portfolio-box-01-web3:hover div,
+.portfolio-box-01-web3:hover img,
+.portfolio-box-01-web3:hover h5 {
+    color:white;
+   
+}
+
+.portfolio-box-01-web3:hover .portfolio-img-web3 {
+    opacity: 0.6;
+}
+
+.portfolio-box-01-web3:hover .middle {
+    opacity: 1;
+}
+.portfolio-img-web3>img {
+    width: 100%;
+}
+
+
+.portfolio-info-web3 {
+    text-align: center;
 }
 
 .portfolio-icon {
