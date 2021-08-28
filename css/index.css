@@ -295,6 +295,19 @@
     height: 70vh;
 }
 
+.ghf-nav3 {
+    background-image: url(../images/section3.jpeg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 70vh;
+}
+
+.ghf-nav3:hover {
+    filter: brightness(140%);
+}
+
 .ghf-pos {
     position: absolute;
 }
@@ -513,7 +526,8 @@
 .portfolio-box-01-web3:hover div,
 .portfolio-box-01-web3:hover img,
 .portfolio-box-01-web3:hover h5 {
-    color:white;
+   
+    filter: brightness(130%);
    
 }
 
