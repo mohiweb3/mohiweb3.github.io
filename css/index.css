@@ -544,6 +544,153 @@
 
 
 
+.section4-1 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section4-1-n.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 54vh;
+    position: relative;
+ }
+ 
+ .section4-1:hover,
+ .section4-1:hover div,
+ .section4-1:hover img,
+ .section4-1:hover h5 {
+    
+    background-image: url(../images/section4-1-n-2.jpg);  
+    
+ }
+
+
+ .section4-2 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section4-2-n.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 54vh;
+    position: relative;
+ }
+ 
+ .section4-2:hover,
+ .section4-2:hover div,
+ .section4-2:hover img,
+ .section4-2:hover h5 {
+    
+    background-image: url(../images/section4-2-n-2.jpg);  
+    
+ }
+
+
+
+
+
+.section5-1 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section5-1-1.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 32vh;
+    position: relative;
+ }
+ 
+ .section5-1:hover,
+ .section5-1:hover div,
+ .section5-1:hover img,
+ .section5-1:hover h5 {
+    
+    background-image: url(../images/section5-1-2.jpg);  
+    
+ }
+
+
+ .section5-2 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section5-2-1.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 32vh;
+    position: relative;
+ }
+ 
+ .section5-2:hover,
+ .section5-2:hover div,
+ .section5-2:hover img,
+ .section5-2:hover h5 {
+    
+    background-image: url(../images/section5-2-2.jpg);  
+    
+ }
+
+
+
+ .section5-3 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section5-3-1.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 32vh;
+    position: relative;
+ }
+ 
+ .section5-3:hover,
+ .section5-3:hover div,
+ .section5-3:hover img,
+ .section5-3:hover h5 {
+    
+    background-image: url(../images/section5-3-2.jpg);  
+    
+ }
+
+
+
+ .section5-4 {
+   
+    margin: 0;
+    filter: brightness(100%);
+    background-color: black;
+    background-image: url(../images/section5-4-1.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 32vh;
+    position: relative;
+ }
+ 
+ .section5-4:hover,
+ .section5-4:hover div,
+ .section5-4:hover img,
+ .section5-4:hover h5 {
+    
+    background-image: url(../images/section5-4-2.jpg);  
+    
+ }
 
 
 .portfolio-box-01-web3 {
