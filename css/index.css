@@ -48,7 +48,7 @@
 }
 
 .right__item {
-    margin-left: 25px;
+    margin-left: 0px;
 }
 
 .font-nav {
@@ -373,7 +373,7 @@
     background: #fff5ec;
 }
 .gray-bg-web3 {
-    background: yellowgreen;
+    background: black;
 }
 
 .gray-bg-web3-4 {
@@ -543,17 +543,16 @@
 
 
 
-
 .section4-1 {
    
     margin: 0;
     filter: brightness(100%);
     background-color: black;
-    background-image: url(../images/section4-1-n.jpg);
+    background-image: url(../images/section4-1-n-2.jpg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    opacity:60%;
     height: 54vh;
     position: relative;
  }
@@ -562,8 +561,8 @@
  .section4-1:hover div,
  .section4-1:hover img,
  .section4-1:hover h5 {
-    
-    background-image: url(../images/section4-1-n-2.jpg);  
+    opacity:100%;
+     
     
  }
 
@@ -573,11 +572,11 @@
     margin: 0;
     filter: brightness(100%);
     background-color: black;
-    background-image: url(../images/section4-2-n.jpg);
+    background-image: url(../images/section4-2-n-2.jpg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    opacity:60%;
     height: 54vh;
     position: relative;
  }
@@ -587,7 +586,7 @@
  .section4-2:hover img,
  .section4-2:hover h5 {
     
-    background-image: url(../images/section4-2-n-2.jpg);  
+    opacity:100%
     
  }
 
@@ -600,21 +599,35 @@
     margin: 0;
     filter: brightness(100%);
     background-color: black;
-    background-image: url(../images/section5-1-1.jpg);
+    background-image: url(../images/section5-1-2.jpg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
     height: 32vh;
     position: relative;
+    opacity: 60%;
+color: black;
  }
  
+ .section5-1 > img{
+    width: 100%;
+ }
+ .section5-2 > img{
+    width: 100%;
+ }
+ .section5-3 > img{
+    width: 100%;
+ }
+ .section5-4 > img{
+    width: 100%;
+ }
  .section5-1:hover,
  .section5-1:hover div,
  .section5-1:hover img,
  .section5-1:hover h5 {
-    
-    background-image: url(../images/section5-1-2.jpg);  
+    color: white;
+    opacity: 100%;
+
     
  }
 
@@ -628,7 +641,8 @@
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    opacity: 60%;
+    color: black;
     height: 32vh;
     position: relative;
  }
@@ -638,7 +652,8 @@
  .section5-2:hover img,
  .section5-2:hover h5 {
     
-    background-image: url(../images/section5-2-2.jpg);  
+    color: white;
+    opacity: 100%;
     
  }
 
@@ -649,11 +664,12 @@
     margin: 0;
     filter: brightness(100%);
     background-color: black;
-    background-image: url(../images/section5-3-1.jpg);
+    background-image: url(../images/video.jpg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    opacity: 60%;
+    color: black;
     height: 32vh;
     position: relative;
  }
@@ -663,7 +679,8 @@
  .section5-3:hover img,
  .section5-3:hover h5 {
     
-    background-image: url(../images/section5-3-2.jpg);  
+    color: white;
+    opacity: 100%;
     
  }
 
@@ -674,11 +691,12 @@
     margin: 0;
     filter: brightness(100%);
     background-color: black;
-    background-image: url(../images/section5-4-1.jpg);
+    background-image: url(../images/insider.jpg);
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    opacity: 60%;
+    color: black;
     height: 32vh;
     position: relative;
  }
@@ -688,13 +706,13 @@
  .section5-4:hover img,
  .section5-4:hover h5 {
     
-    background-image: url(../images/section5-4-2.jpg);  
+    color: white;
+    opacity: 100%;
     
  }
 
-
 .portfolio-box-01-web3 {
-    background: red;
+    background: black;
    margin: 0;
   
   
@@ -1057,4 +1075,9 @@
     background: rgba(255,255,255,0.5);
     -webkit-transition: 0.3s;
     transition: 0.3s;
+}
+.font-alt2 {
+    font-family: 'Nunito', sans-serif;
+
+text-align: center;vertical-align: middle;line-height: 300px;
 }
